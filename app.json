@@ -1,8 +1,7 @@
 {
   "expo": {
-    "owner": "sakuto62",
-    "name": "MeteoCDA",
-    "slug": "meteocda",
+    "name": "WeatherApp",
+    "slug": "weatherapp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./src/assets/img/icon.png",
@@ -25,10 +24,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./src/assets/img/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.remyctrz.weatherapp"
     },
     "web": {
       "favicon": "./src/assets/img/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "24a18089-ac36-47f6-8f5f-62f3743e47c7"
+      }
     }
   }
 }
